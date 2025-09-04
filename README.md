@@ -1,6 +1,6 @@
 # Quiz App
 
-## 📌 Project Description
+##  Project Description
 This is a responsive, single-page **Quiz Application** built with **React + Vite**, styled using **Tailwind CSS**.  
 The app assesses front-end fundamentals by demonstrating **state management, API integration, and a clean, user-friendly interface**.
 
@@ -9,7 +9,7 @@ It also includes a **timer for each question** and a **persistent high-score fea
 
 ---
 
-## ✨ Features
+##  Features
 - **Quiz Page**: Displays one question at a time with four shuffled answer options.  
 - **API Integration**: Fetches questions dynamically from the Open Trivia DB API (with local fallback for offline use).  
 - **Responsive UI**: Clean and modern layout for both desktop and mobile devices.  
@@ -22,7 +22,7 @@ It also includes a **timer for each question** and a **persistent high-score fea
 
 ---
 
-## 🚀 How to Run the Project Locally
+##  How to Run the Project Locally
 
 ### 🔹 Prerequisites
 - [Node.js](https://nodejs.org/) (v14 or higher recommended)  
@@ -32,24 +32,32 @@ It also includes a **timer for each question** and a **persistent high-score fea
 Clone the repository:
 ```bash
 git clone https://github.com/sourav-pandey-dev/my-quiz-app.git
-
+```
 Navigate into the project folder:
+```bash
 
 cd my-quiz-app
-
+```
 Install required dependencies:
-npm install
-Install Tailwind CSS dependencies:
 
+```bash
+npm install
+````
+
+Install Tailwind CSS dependencies:
+```bash
 
 npm install -D tailwindcss@3.4.17 postcss autoprefixer
+```
+
 Initialize Tailwind configuration:
 
-
+```bash
 npx tailwindcss init -p
+```
 Update your tailwind.config.js to scan source files:
 
-js
+```bash
 // tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -62,23 +70,28 @@ export default {
   },
   plugins: [],
 };
+
+```
 Add Tailwind directives to your main CSS file (src/index.css):
 
-css
+```bash
+
 /* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
 🔹 Running the App
 Start the development server:
 
-bash
-npm run dev
-Open the app in your browser:
-👉 http://localhost:5173
+```bash
 
-📷 Screenshots (Optional)
-Add some UI screenshots here once the app runs locally.
+npm run dev
+
+```
+Open the app in your browser:
+ http://localhost:5173
+
 
 📄 License
 This project is licensed under the MIT License.
