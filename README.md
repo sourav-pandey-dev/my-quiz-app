@@ -34,24 +34,22 @@ Clone the repository:
 git clone https://github.com/sourav-pandey-dev/my-quiz-app.git
 
 Navigate into the project folder:
-```bash
+
 cd my-quiz-app
 
 Install required dependencies:
 npm install
 Install Tailwind CSS dependencies:
 
-bash
-Copy code
+
 npm install -D tailwindcss@3.4.17 postcss autoprefixer
 Initialize Tailwind configuration:
 
-bash
+
 npx tailwindcss init -p
 Update your tailwind.config.js to scan source files:
 
 js
-Copy code
 // tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
